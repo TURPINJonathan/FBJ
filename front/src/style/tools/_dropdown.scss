@@ -1,0 +1,21 @@
+.mainMenu {
+  cursor: pointer;
+  position: relative;
+
+  .subMenu {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  &:hover {
+    .subMenu {
+      position: absolute;
+      display: block;
+
+      .subMenu_item {
+        margin: 1rem auto;
+      }
+    }
+  }
+}

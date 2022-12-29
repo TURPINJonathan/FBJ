@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import './style/index.scss';
 
 import Main from './components/Pages/main';
+import Header from './components/Layout/header.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* header */}
+    <Header />
     <main>
       <Main />
     </main>
