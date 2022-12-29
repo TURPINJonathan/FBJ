@@ -1,0 +1,28 @@
+.headerBanner {
+  width: 100vw;
+  position: relative;
+
+  .headerBanner_picture {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    z-index: 1;
+  }
+
+  h1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: -25vh;
+    width: 100vw;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(209, 209, 209);
+    background-color: rgba(0, 0, 0, 0.521);
+  }
+}
