@@ -1,11 +1,19 @@
 import React from "react";
+import Logo from "../Tools/logo.png"
 
 const Header = () => {
   return (
     <header>
-      <button className="FBJ_logo">
-        LOGO
-      </button>
+      <a
+        href="/"
+        className="FBJ_logo-link"
+      >
+        <img
+          className="FBJ_logo-picture"
+          src={Logo}
+          alt="Logo de la société FBJ, maçonnerie & carrelage"
+        />
+      </a>
       <nav>
         <ul className="menu">
           <li className="mainMenu">Nos domaines

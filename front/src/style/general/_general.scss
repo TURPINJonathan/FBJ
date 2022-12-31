@@ -32,4 +32,12 @@ html {
       margin-bottom: 2rem;
     }
   }
+
+  footer>p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+  }
 }

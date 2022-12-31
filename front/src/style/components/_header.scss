@@ -7,11 +7,20 @@ header {
   justify-content: space-between;
   width: 100vw;
 
-  .FBJ_logo {
+  .FBJ_logo-link {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     margin: 2rem;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .FBJ_logo-picture {
+      width: 180px;
+      height: 180px;
+    }
   }
 
   nav {

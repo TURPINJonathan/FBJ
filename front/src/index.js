@@ -6,6 +6,7 @@ import './style/index.scss';
 
 import Main from './components/Pages/main';
 import Header from './components/Layout/header.js';
+import Footer from './components/Layout/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <main>
       <Main />
     </main>
+    <Footer />
   </React.StrictMode>
 );
 
