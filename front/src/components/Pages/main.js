@@ -21,11 +21,12 @@ const Main = () => {
         text1='La transparence est pour nous importante.'
         text2='Notre devise : vos rêves à portés de votre portefeuille.'
       />
-      <BannerTextLeft
-        title1='Notre priorité'
-        title2='La qualité'
-        text1='LOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMETLOREM IPSUM DOLOR SIT AMET'
-      />
+      <section className="main_bubbles">
+        <span>DISPONIBLE RAPIDEMENT</span>
+        <span>SATISFACTION GARANTIE</span>
+        <span>QUALITE OPTIMALE</span>
+        <span>SUIVI DE CHANTIER</span>
+      </section>
     </div >
   );
 }
